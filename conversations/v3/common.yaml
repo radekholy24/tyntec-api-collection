@@ -439,6 +439,18 @@ components:
           description: Point in time when status has been entered
     MessageDeliveryEvents:
       type: object
+      required:
+        - messageId
+        - events
+      properties:
+        messageId:
+          type: string
+          format: uuid
+          description: Global unique Message Id reference
+        events:
+          type: array
+          items:
+            type: object
     BulkMessageRequest:
       type: object
     BulkMessageResponse:
