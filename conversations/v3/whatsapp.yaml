@@ -2024,11 +2024,11 @@ components:
       description: |
         Interactive message type
       required:
-        - type
+        - subType
         - components
       properties:
-        type:
-          subType: string
+        subType:
+          type: string
           enum:
             - list
         components:
