@@ -34,9 +34,9 @@ tags:
   - name: "Messaging"
     description: |
       In this section we guide you on how to send messages, get information about the status and the events happening during the delivery.
-  - name: "Service IDs"
+  - name: "Channel configurations"
     description: |
-      List all Service IDs configured for your API account.
+      List all channel configurations assigned to your API account.
   - name: "Callback configuration"
     description: |
       In this section, we guide you on how to configure the callbacks on a per channel bases.
@@ -90,8 +90,8 @@ paths:
   /configurations/channels/viber:
     get:
       tags:
-        - "Service IDs"
-      summary: List Service IDs
+        - "Channel configurations"
+      summary: List configurations
       operationId: listAllViberChannels
       description: List all Viber channels available to your API account
       responses:
@@ -106,7 +106,7 @@ paths:
       - $ref: '#/components/parameters/ServiceId'
     get:
       tags:
-        - "Service IDs"
+        - "Channel configurations"
       summary: Read a configuration
       operationId: getViberChannelConfig
       description: Returns the specific channel configuration

@@ -22,9 +22,9 @@ tags:
   - name: "Messaging"
     description: |
       In this section we guide you on how to send messages, get information about the status and the events happening during the delivery.
-  - name: "Telegram IDs"
+  - name: "Channel configurations"
     description: |
-      List all Telegram IDs configured for your API account.
+      List all channel configurations assigned to your API account.
   - name: "Callback configuration"
     description: |
       In this section, we guide you on how to configure the callbacks on a per channel bases.
@@ -78,8 +78,8 @@ paths:
   /configurations/channels/telegram:
     get:
       tags:
-        - "Telegram IDs"
-      summary: List Telegram IDs
+        - "Channel configurations"
+      summary: List configurations
       operationId: listAllTelegramChannels
       description: List all Telegram channels available to your API account
       responses:
@@ -94,7 +94,7 @@ paths:
       - $ref: '#/components/parameters/TelegramId'
     get:
       tags:
-        - "Telegram IDs"
+        - "Channel configurations"
       summary: Read a configuration
       operationId: getTelegramChannelConfig
       description: Returns the specific channel configuration
