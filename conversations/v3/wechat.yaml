@@ -270,10 +270,8 @@ components:
           type: string
           description: Channel selected for delivery.
           example: WeChat
-          items:
-            type: string
-            enum:
-              - wechat
+          enum:
+            - wechat
         overrides:
           $ref: 'common.yaml#/components/schemas/MessageRequestOverrides'
         context:
@@ -316,10 +314,8 @@ components:
           type: string
           description: Channel selected for delivery.
           example: wechat
-          items:
-            type: string
-            enum:
-              - wechat
+          enum:
+            - wechat
         messages:
           type: array
           maxItems: 20
