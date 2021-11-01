@@ -1871,7 +1871,7 @@ components:
         type:
           type: string
           enum:
-            - document
+            - location
         location:
           $ref: '#/components/schemas/WhatsAppLocation'
     WhatsAppTemplateMediaHeader:
