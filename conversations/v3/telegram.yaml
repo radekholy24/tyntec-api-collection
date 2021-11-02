@@ -280,8 +280,9 @@ components:
           maxItems: 20
           minItems: 2
           items:
-            - $ref: '#/components/schemas/TelegramTextContent'
-            - $ref: '#/components/schemas/TelegramImageContent'
+            anyOf:
+              - $ref: '#/components/schemas/TelegramTextContent'
+              - $ref: '#/components/schemas/TelegramImageContent'
     TelegramTextContent:
       type: object
       properties:
