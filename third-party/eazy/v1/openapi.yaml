@@ -896,6 +896,22 @@ paths:
           schema:
             type: string
             example: 'GREETING'
+      requestBody:
+        description: The message you would like to update
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                body:
+                  description: Text of the automated message
+                  type: string
+                  example: 'Sorry, we are currently closed. Your question will be answered as soon as possible.'
+                enabled:
+                  description: Is the automated message enabled?
+                  type: boolean
+                  example: false
       responses:
         200:
           description: OK
