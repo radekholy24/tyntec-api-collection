@@ -921,25 +921,25 @@ paths:
             example: 'channelJid@company.com'
         - in: body
           name: jid
-          description: Contact ID
+          description: A contact ID
           schema:
             type: string
           example: '31611111111@company.com'
         - in: body
           name: name
-          description: Name of the contact
+          description: The contact's name
           schema:
             type: string
           example: 'John Doe'
         - in: body
           name: reference
-          description: Reference of the contact
+          description: The contact's reference
           schema:
             type: string
           example: 'Customer #545'
         - in: body
           name: remarks
-          description: Comment for the contact
+          description: A comment about the contact
           schema:
             type: string
           example: 'VIP'
