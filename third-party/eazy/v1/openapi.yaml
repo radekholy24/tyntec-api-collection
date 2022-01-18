@@ -2033,14 +2033,14 @@ paths:
         - in: path
           name: id
           required: true
-          description: ID of the node
+          description: The ID of the node
           schema:
             type: string
             example: '458e633a-ab50-445f-9d1f-52afbf720ec3'
         - in: body
           name: name
           required: true
-          description: Name of the webhook to be created
+          description: The name of the webhook to be created
           schema:
             type: string
           example: 'Support'
