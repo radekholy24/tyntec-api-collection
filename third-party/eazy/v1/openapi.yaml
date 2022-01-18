@@ -462,7 +462,7 @@ paths:
         - in: body
           name: name
           required: true
-          description: Name of the team to be created
+          description: The name of the team to be created
           schema:
             type: string
           example: 'Support'
