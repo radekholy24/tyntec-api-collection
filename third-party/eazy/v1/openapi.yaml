@@ -1567,13 +1567,13 @@ paths:
         - in: path
           name: id
           required: true
-          description: ID of the node
+          description: The note's ID
           schema:
             type: string
             example: '458e633a-ab50-445f-9d1f-52afbf720ec3'
         - in: body
           name: body
-          description: Text/Body of the note.
+          description: The note's text/body.
           schema:
             type: string
           example: 'Customer number #63553'
@@ -1585,13 +1585,13 @@ paths:
           example: true
         - in: body
           name: isReadOnly
-          description: Is this note read only or not?
+          description: Is this note read-only?
           schema:
             type: boolean
           example: false
         - in: body
           name: referenceId
-          description: Friendly reference name as an ID.
+          description: A friendly reference name as an ID.
           schema:
             type: string
           example: 'CUSTOMER_NUMBER'
