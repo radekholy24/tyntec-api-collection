@@ -804,12 +804,12 @@ paths:
             example: 'jid@company.com'
         - in: body
           name: name
-          description: Name of the channel
+          description: The channel's name
           schema:
             type: integer
         - in: body
           name: priority
-          description: Priority of the channel
+          description: The channel's priority
           schema:
             type: integer
       responses:
