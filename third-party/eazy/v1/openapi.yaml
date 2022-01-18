@@ -2002,7 +2002,7 @@ paths:
         - in: body
           name: url
           required: true
-          description: URL of the webhook
+          description: The webhook's URL
           schema:
             type: string
             format: uri
