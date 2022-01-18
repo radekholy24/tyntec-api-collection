@@ -644,13 +644,13 @@ paths:
             example: '458e633a-ab50-445f-9d1f-52afbf720ec3'
         - in: body
           name: description
-          description: Description of the label
+          description: The label's description
           schema:
             type: string
           example: 'Support related questions'
         - in: body
           name: name
-          description: Name of the label
+          description: The label's name
           schema:
             type: string
           example: 'Support'
