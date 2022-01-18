@@ -1133,7 +1133,7 @@ paths:
             example: 'contactJid@company.com'
         - in: body
           name: body
-          description: Text for the comment
+          description: The text of the comment
           schema:
             type: string
           example: 'Order #12345 has been delivered'
