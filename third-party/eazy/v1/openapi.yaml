@@ -1819,14 +1819,14 @@ paths:
         - in: path
           name: code
           required: true
-          description: QR code
+          description: A QR code
           schema:
             type: string
             example: 'VETO8Y3SYCSFH1'
         - in: body
           name: message
           required: true
-          description: Text/Body of the message.
+          description: The text/body of the message.
           schema:
             type: string
           example: 'I have a question about product ABC'
