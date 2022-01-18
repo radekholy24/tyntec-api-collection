@@ -1727,16 +1727,16 @@ paths:
             example: 'channelJid@company.com'
         - in: body
           name: businessProfile
-          description: Example of WhatsApp for Business profile update
+          description: The WhatsApp for Business profile update
           schema:
             type: object
             properties:
               description:
-                description: Description of the profile
+                description: The description of the profile
                 type: string
                 example: "YourCompany Ltd."
               email:
-                description: email address associated with the WhatsApp for business profile
+                description: The email address associated with the WhatsApp for business profile
                 type: string
                 format: email
                 example: "info@your-company.com"
