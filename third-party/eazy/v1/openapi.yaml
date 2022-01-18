@@ -1521,13 +1521,13 @@ paths:
             example: 'contactJid@company.com'
         - in: body
           name: body
-          description: Text/Body of the note.
+          description: The note's text/body
           schema:
             type: string
           example: 'Customer number #63553'
         - in: body
           name: referenceId
-          description: Friendly reference name as an ID.
+          description: A friendly reference name as an ID.
           schema:
             type: string
           example: 'CUSTOMER_NUMBER'
