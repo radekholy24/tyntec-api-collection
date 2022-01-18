@@ -1789,7 +1789,7 @@ paths:
             example: 'channelJid@company.com'
         - in: body
           name: message
-          description: Text/Body of the message.
+          description: The text/body of the message.
           schema:
             type: string
           example: 'I have a question about product ABC'
