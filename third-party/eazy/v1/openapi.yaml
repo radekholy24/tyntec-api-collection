@@ -1212,13 +1212,13 @@ paths:
           example: 'Label123'
         - in: body
           name: status
-          description: Status of the conversation
+          description: The status of the conversation
           schema:
             type: string
           example: 'CLOSED'
         - in: body
           name: unreadCount
-          description: Number of unread messages
+          description: The number of unread messages
           schema:
             type: integer
           example: 5
