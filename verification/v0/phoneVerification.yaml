@@ -69,13 +69,6 @@ paths:
         - metadata
       summary: Phone Verification API Health
       operationId: getPhoneVerificationHealth
-      parameters:
-        - name: apiKey
-          in: header
-          description: 'API authentication key for the customer account'
-          required: true
-          schema:
-            type: string
       security:
         - apiKey: []
       responses:
